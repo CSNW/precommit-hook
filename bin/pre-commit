@@ -80,8 +80,6 @@ function exit(code, callback) {
                 drainCount++;
                 tryToExit();
             });
-
-            stream.write = function () {};
         }
     });
 
